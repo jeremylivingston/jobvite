@@ -1,0 +1,25 @@
+{
+    "name": "jeremylivingston/jobvite",
+    "type": "library",
+    "description": "A PHP library for interacting with Jobvite's API",
+    "keywords": ["php", "jobvite"],
+    "homepage": "http://www.github.com/jeremylivingston/jobvite",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Livingston"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Livingstn\\Jobvite\\": "src/Livingstn/Jobvite/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    }
+}
